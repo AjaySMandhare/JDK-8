@@ -8,6 +8,8 @@ public class testStringWithAlphabets {
 	public static boolean isStringOnlyAlphabet(String str) {
 		System.out.println("I am in main");
 		System.out.println("Welcome");
+		System.out.println("coading");
+		System.out.println("add Login branch");
 		return ((str != null) && (!str.equals("")) && (str.chars().allMatch(Character::isLetter)));
 		
 	}
