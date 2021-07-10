@@ -6,6 +6,7 @@ import javax.print.attribute.standard.DateTimeAtCompleted;
 
 public class testStringWithAlphabets {
 	public static boolean isStringOnlyAlphabet(String str) {
+		System.out.println("I am in main");
 		return ((str != null) && (!str.equals("")) && (str.chars().allMatch(Character::isLetter)));
 	}
 
