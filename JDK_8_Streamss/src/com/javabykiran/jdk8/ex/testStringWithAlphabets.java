@@ -10,6 +10,7 @@ public class testStringWithAlphabets {
 		System.out.println("Welcome");
 		System.out.println("coading");
 		System.out.println("add Login branch");
+		System.out.println("Teacher functionality");
 		return ((str != null) && (!str.equals("")) && (str.chars().allMatch(Character::isLetter)));
 		
 	}
